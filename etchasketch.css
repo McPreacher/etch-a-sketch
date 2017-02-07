@@ -1,0 +1,55 @@
+/*etchasketch.css*/
+
+h1 {
+	text-align: center;
+	color: firebrick;
+	
+	}
+
+* {
+	background-color: dimgray;
+	}
+	
+#etchpic {
+	
+	height: 400px;
+	background:url("https://s-media-cache-ak0.pinimg.com/originals/e4/42/15/e44215249cb6149c8699c9dcff906043.jpg");
+	background-position: center top;
+	background-attachment: fixed;
+	
+	background-size: 50%;
+
+	
+	}
+	
+#container {
+		background-color: black;
+		height: 576px;
+		width: 576px;
+		margin: auto;
+		border: 3px solid black
+		
+		}
+		
+.grid {
+	background-color: Khaki;
+	height: 35px;
+	width: 35px;
+	margin: .5px;
+	display: inline-block;
+	float: left;
+	
+	
+	
+	}
+	
+input {
+		background-color: white;
+		margin-left: 20px;
+		
+		}
+		
+.active {
+		background-color: dimgray;
+		}
+
