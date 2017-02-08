@@ -7,7 +7,7 @@ h1 {
 	}
 
 * {
-	background-color: dimgray;
+	background-color: white;
 	}
 	
 #etchpic {
@@ -27,15 +27,15 @@ h1 {
 		height: 576px;
 		width: 576px;
 		margin: auto;
-		border: 3px solid black
+		border: 3px outset black
 		
 		}
 		
 .grid {
-	background-color: Khaki;
+	background-color: dimgray;
 	height: 35px;
 	width: 35px;
-	margin: .5px;
+	margin: 0.5px;
 	display: inline-block;
 	float: left;
 	
@@ -45,7 +45,7 @@ h1 {
 	
 input {
 		background-color: white;
-		margin-left: 20px;
+		
 		
 		}
 		
@@ -53,3 +53,7 @@ input {
 		background-color: dimgray;
 		}
 
+input, #container {
+
+			display: inline-block;
+			}
